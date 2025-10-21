@@ -1,0 +1,49 @@
+(
+  (content) @injection.content
+  (#set! injection.language "html")
+  (#set! injection.combined)
+)
+
+(
+  (shorthand_perl_code
+	(short_perl_code) @injection.content
+	(#set! injection.language "perl")
+	(#set! injection.combined)
+  )
+)
+
+(
+  (shorthand_perl_expression
+	(short_perl_code) @injection.content
+	(#set! injection.language "perl")
+  )
+)
+
+(
+  (shorthand_perl_expression_escaped
+	(short_perl_code) @injection.content
+	(#set! injection.language "perl")
+  )
+)
+
+(
+  (bracketed_perl_code
+	(perl_code) @injection.content
+	(#set! injection.language "perl")
+	(#set! injection.combined)
+  )
+)
+
+(
+  (bracketed_perl_expression
+	(perl_code) @injection.content
+	(#set! injection.language "perl")
+  )
+)
+
+(
+  (bracketed_perl_expression_escaped
+	(perl_code) @injection.content
+	(#set! injection.language "perl")
+  )
+)

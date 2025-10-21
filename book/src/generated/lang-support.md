@@ -172,6 +172,7 @@
 | mint |  |  |  |  |  | `mint` |
 | miseconfig | ✓ | ✓ | ✓ |  |  | `taplo`, `tombi` |
 | mojo | ✓ | ✓ | ✓ |  |  | `pixi` |
+| mojo-template | ✓ |  |  |  |  |  |
 | move | ✓ |  |  |  |  |  |
 | msbuild | ✓ |  | ✓ |  |  |  |
 | nasm | ✓ | ✓ |  |  |  | `asm-lsp` |

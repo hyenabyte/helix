@@ -1749,6 +1749,18 @@ name = "perl"
 source = { git = "https://github.com/tree-sitter-perl/tree-sitter-perl", rev = "72a08a496a23212f23802490ef6f4700d68cfd0e" }
 
 [[language]]
+name = "mojo-template"
+scope = "source.mojo_template"
+injection-regex = "mojo-template"
+file-types = [{ glob = "*.html.ep" }]
+comment-token = "%#"
+indent = { tab-width = 2, unit = "  " }
+
+[[grammar]]
+name = "mojo-template"
+source = { git = "https://github.com/mrsdizzie/tree-sitter-mojo-template", rev = "b3e9eb351133f2755c9b7d45e3a6230ea4fada12" }
+
+[[language]]
 name = "pod"
 scope = "source.pod"
 injection-regex = "pod"
